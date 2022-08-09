@@ -65,3 +65,32 @@ a:hover {
     background-position: 0% 90%;
   }
 }
+
+/* MENU */
+
+.checkbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkbox {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  cursor: pointer;
+  z-index: 9999;
+  transition: 400ms ease-in-out 0;
+}
+
+.checkbox .trace {
+  width: 50px;
+  height: 2px;
+  background-color: #ffffff;
+  position: absolute;
+  border-radius: 4px;
+  transition: 0.5s ease-in-out;
+}
